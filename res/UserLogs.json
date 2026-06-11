@@ -1,0 +1,80 @@
+[
+  {
+    "username": "Dea",
+    "timeRecordList": [
+      {
+        "date": "05/04/2023",
+        "timeDetails": [
+          {
+            "time": "19:22:51",
+            "recordType": "Time In"
+          },
+          {
+            "time": "19:23:10",
+            "recordType": "Time Out"
+          },
+          {
+            "time": "19:27:56",
+            "recordType": "Time In"
+          },
+          {
+            "time": "19:28:10",
+            "recordType": "Time Out"
+          },
+          {
+            "time": "21:15:07",
+            "recordType": "Time In"
+          },
+          {
+            "time": "21:15:27",
+            "recordType": "Time Out"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "username": "Gregg",
+    "timeRecordList": [
+      {
+        "date": "05/04/2023",
+        "timeDetails": [
+          {
+            "time": "21:15:38",
+            "recordType": "Time In"
+          },
+          {
+            "time": "21:15:43",
+            "recordType": "Time Out"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "username": "AAA",
+    "timeRecordList": [
+      {
+        "date": "05/04/2023",
+        "timeDetails": [
+          {
+            "time": "21:15:38",
+            "recordType": "Time In"
+          },
+          {
+            "time": "21:15:43",
+            "recordType": "Time Out"
+          },
+          {
+            "time": "21:16:00",
+            "recordType": "Time In"
+          },
+          {
+            "time": "21:16:38",
+            "recordType": "Time Out"
+          }
+        ]
+      }
+    ]
+  }
+]

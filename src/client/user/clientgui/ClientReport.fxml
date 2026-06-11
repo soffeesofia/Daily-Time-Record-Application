@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.user.clientController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background/req.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="243.0" layoutY="13.0" prefHeight="42.0" prefWidth="114.0" text="Time Log" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Line endX="0.300018310546875" endY="-4.799999237060547" layoutX="233.0" layoutY="56.0" startX="0.3000059127807617" startY="-36.79999923706055" stroke="WHITE" strokeWidth="3.0" />
+      <TableView fx:id="timeSheet" layoutX="19.0" layoutY="69.0" prefHeight="257.0" prefWidth="570.0" style="-fx-background-color: #000000;">
+        <columns>
+          <TableColumn fx:id="timeInCol" prefWidth="285.60003662109375" text="Time In" />
+            <TableColumn fx:id="timeOutCol" prefWidth="185.60003662109375" text="Time Out" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Label layoutX="182.0" layoutY="343.0" prefHeight="42.0" prefWidth="122.0" text="Total Time Rendered:" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeRendered" layoutX="316.0" layoutY="343.0" prefHeight="42.0" prefWidth="86.0" text="00:00:00" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

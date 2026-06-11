@@ -1,0 +1,72 @@
+[
+  {
+    "firstName": "Dea",
+    "lastName": "Dea",
+    "username": "Dea",
+    "password": "12345",
+    "isRegistered": true,
+    "onDuty": false,
+    "isAdmin": false
+  },
+  {
+    "firstName": "Gregg",
+    "lastName": "Gregg",
+    "username": "Gregg",
+    "password": "12345",
+    "isRegistered": true,
+    "onDuty": false,
+    "isAdmin": false
+  },
+  {
+    "firstName": "Roger",
+    "lastName": "Chegyem",
+    "username": "Roger",
+    "password": "12345",
+    "isRegistered": true,
+    "onDuty": false,
+    "isAdmin": false
+  },
+  {
+    "username": "admin",
+    "password": "admin",
+    "isRegistered": false,
+    "onDuty": false,
+    "isAdmin": true
+  },
+  {
+    "firstName": "Jaymee",
+    "lastName": "Surro",
+    "username": "jaymee",
+    "password": "12345",
+    "isRegistered": true,
+    "onDuty": false,
+    "isAdmin": false
+  },
+  {
+    "firstName": "Sofia",
+    "lastName": "Surro",
+    "username": "sofia",
+    "password": "12345",
+    "isRegistered": true,
+    "onDuty": false,
+    "isAdmin": false
+  },
+  {
+    "firstName": "Ryeth",
+    "lastName": "Bosaing",
+    "username": "Ryeth",
+    "password": "12345",
+    "isRegistered": true,
+    "onDuty": false,
+    "isAdmin": false
+  },
+  {
+    "firstName": "John",
+    "lastName": "Marquez",
+    "username": "John",
+    "password": "12345",
+    "isRegistered": true,
+    "onDuty": false,
+    "isAdmin": false
+  }
+]

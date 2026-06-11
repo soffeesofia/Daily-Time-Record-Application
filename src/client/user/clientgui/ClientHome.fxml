@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.user.clientController">
+   <top>
+      <AnchorPane prefHeight="510.0" prefWidth="687.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="388.0" fitWidth="724.0" layoutX="-2.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@background/clienthome.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="304.0" layoutY="10.0" prefHeight="500.0" prefWidth="392.0" style="-fx-background-image: 'background.jpg';">
+               <children>
+                  <Button fx:id="logoutButton" layoutX="286.0" layoutY="459.0" mnemonicParsing="false" onAction="#logOutPressed" prefHeight="26.0" prefWidth="86.0" style="-fx-background-color: #200C91; -fx-text-fill: white;" text="Log Out">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="timeAndDate" layoutX="108.0" layoutY="189.0" text="Current TimeandDate" textFill="#ddff00">
+                     <font>
+                        <Font name="System Italic" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="168.0" layoutY="241.0" text="User Time in/out" textFill="#c8ff00">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="135.0" layoutY="160.0" />
+            <Button fx:id="timeInButton" layoutX="61.0" layoutY="206.0" mnemonicParsing="false" onAction="#timeInClicked" prefHeight="52.0" prefWidth="234.0" style="-fx-background-color: #200C91; -fx-text-fill: white;" text="Time In">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="timeOutButton" layoutX="61.0" layoutY="287.0" mnemonicParsing="false" onAction="#timeOutClicked" prefHeight="52.0" prefWidth="232.0" style="-fx-background-color: #200C91; -fx-text-fill: white;" text="Time Out">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="summarryButton" layoutX="61.0" layoutY="364.0" mnemonicParsing="false" onAction="#summaryClicked" prefHeight="52.0" prefWidth="233.0" style="-fx-background-color: #200C91; -fx-text-fill: white;" text="Summary">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="userName" layoutX="206.0" layoutY="81.0" prefHeight="51.0" prefWidth="128.0" text="(name)" textFill="#c9e800">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="61.0" layoutY="79.0" text="Hello!" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="48.0" />
+               </font>
+            </Label>
+            <Label fx:id="currentStatus" layoutX="158.0" layoutY="150.0" text="Status" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

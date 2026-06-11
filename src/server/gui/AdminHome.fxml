@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.adminController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background/adminhome.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="regReqButton" layoutX="314.0" layoutY="82.0" mnemonicParsing="false" onAction="#regReq" prefHeight="58.0" prefWidth="254.0" style="-fx-background-color: #200C91;" text="Registration Requests" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="employeeStatButton" layoutX="314.0" layoutY="172.0" mnemonicParsing="false" onAction="#employeeStat" prefHeight="58.0" prefWidth="254.0" style="-fx-background-color: #200C91;" text="Employee Status" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="accumHrsButton" layoutX="314.0" layoutY="263.0" mnemonicParsing="false" onAction="#accumHrs" prefHeight="58.0" prefWidth="254.0" style="-fx-background-color: #200C91;" text="Time Records" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Button>
+      <Label layoutX="30.0" layoutY="102.0" prefHeight="106.0" prefWidth="269.0" text="Admin Access" textFill="#fffdfd">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+      <Line endX="-34.100006103515625" endY="70.60000610351562" layoutX="56.0" layoutY="103.0" startX="-34.100006103515625" startY="26.600006103515625" stroke="WHITE" strokeWidth="3.0" />
+      <Button fx:id="logOutButton" layoutX="22.0" layoutY="351.0" mnemonicParsing="false" onAction="#logOutPressed" style="-fx-background-color: #200C91; -fx-text-fill: white;" text="Log Out">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
