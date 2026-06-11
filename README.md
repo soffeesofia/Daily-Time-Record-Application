@@ -2,7 +2,7 @@
 
 A client-server attendance tracking application built with Java RMI (Remote Method Invocation), allowing employees to log their daily time records and enabling admins to monitor employee status and generate attendance reports.
 
-Developed as a Midterm Group Project for PProgramming 3 (CS 222) at Saint Louis University, Baguio City.
+Developed as a Midterm Group Project for Programming 3 (CS 222) at Saint Louis University, Baguio City.
 
 ---
 
